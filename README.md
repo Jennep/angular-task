@@ -1,5 +1,7 @@
 # EnerkeyCodingTask
 
+Start by installing dependencies running `npm install` command.
+
 Implement methods that sort persons by age and by name.
 
 Add buttons for sorting.
@@ -9,6 +11,10 @@ Create a **new component** that takes persons as an input and displays them.
 When methods are implemented, unit tests should pass when you run `ng test`.
 
 You must not edit `app.component.spec.ts` or `persons.ts` files.
+
+## Example implementation
+
+![Example implementation](https://raw.github.com/jvalkeejarvi/angular-task/master/example.gif)
 
 ## Development server
 
