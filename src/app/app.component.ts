@@ -15,10 +15,10 @@ export class AppComponent {
   }
 
   public sortByName(): void {
-    // TODO: implement this
+    this.persons.sort((a,b)=>a.name.localeCompare(b.name));
   }
 
   public sortByAge(): void {
-    // TODO: implement this
+    this.persons.sort((a,b)=>a['age'] - b['age']);
   }
 }

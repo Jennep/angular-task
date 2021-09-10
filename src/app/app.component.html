@@ -1,3 +1,7 @@
 <div>Angular task</div>
 <br>
 <!-- TODO: show list of persons here -->
+<button (click)= "sortByName()">Sort by name</button>
+<button (click)= "sortByAge()">Sort by age</button>
+<app-new-component
+[persons]="persons"></app-new-component>
